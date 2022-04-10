@@ -12,7 +12,7 @@ def main(data:str):
         if i.isdigit():
             sum_digits+=int(i)
     new_list.append(sum_digits)
-    return new_list
+    return sum_digits
 
 # Read data from file
 f=open('txt_file/data07.txt')
