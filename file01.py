@@ -9,7 +9,7 @@ def main(data:str):
     new_list=[]
     data1=data.split(',')
     for i in data1:
-        new_list.append(i)
+        new_list.append(int(i))
     return new_list   
 
 # Read data from file
