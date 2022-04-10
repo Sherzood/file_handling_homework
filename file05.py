@@ -16,6 +16,6 @@ def main(data:str):
             count_s+=1   
     return [count_d,count_s]
 # Read data from file
-f=open('txt_file\data05.txt')
+f=open('txt_file/data05.txt')
 data=f.read()
 print(main(data))
