@@ -13,6 +13,6 @@ def main(data:str):
             mx_length=len(i)
     return mx_length        
 # Read data from file
-f=open('txt_file\data10.txt')
+f=open('txt_file/data10.txt')
 data=f.read()
 print(main(data))
