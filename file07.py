@@ -6,5 +6,15 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    
+    sum_digits=0
+    new_list=[]
+    for i in data:
+        if i.isdigit():
+            sum_digits+=int(i)
+    new_list.append(sum_digits)
+    return new_list
+
 # Read data from file
+f=open('txt_file\data07.txt')
+data=f.read()
+print(main(data))
