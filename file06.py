@@ -13,6 +13,6 @@ def main(data:str):
     return new_list
     
 # Read data from file
-f=open('txt_file\data06.txt')
+f=open('txt_file/data06.txt')
 data=f.read()
 print(main(data))
