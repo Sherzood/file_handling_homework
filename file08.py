@@ -13,6 +13,6 @@ def main(data:str):
                 mx=int(i)
     return mx            
 # Read data from file
-f=open('txt_file\data08.txt')
+f=open('txt_file/data08.txt')
 data=f.read()
 print(main(data))
