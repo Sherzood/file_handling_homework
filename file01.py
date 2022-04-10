@@ -7,7 +7,7 @@ def main(data:str):
         list: return answer
     """
     new_list=[]
-    data1=data.split()
+    data1=data.split(',')
     for i in data1:
         new_list.append(i)
     return new_list   
