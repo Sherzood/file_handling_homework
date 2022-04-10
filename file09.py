@@ -14,6 +14,6 @@ def main(data:str):
     return mn            
 
 # Read data from file
-f=open('txt_file\data09.txt')
+f=open('txt_file/data09.txt')
 data=f.read()
 print(main(data))
